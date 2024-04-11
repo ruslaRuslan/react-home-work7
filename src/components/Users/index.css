@@ -13,3 +13,12 @@ body{
 .link {
     color: #000;
 }
+
+.homeAboutContact{
+    display: flex;
+    justify-content: space-between;   
+}
+
+.homeAboutContact *{
+    text-decoration: none;
+}

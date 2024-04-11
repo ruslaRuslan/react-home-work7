@@ -1,8 +1,9 @@
 import { Route, Routes } from "react-router";
 import Home from "../page/Home";
 import About from "../page/About";
-import Calculator from "../components/Calculator";
-import Users from "../components/Users";
+import Contact from "../page/Contact/";
+
+
 
 const Routing = () => {
   return (
@@ -10,8 +11,7 @@ const Routing = () => {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-        <Route path="/calculator" element={<Calculator />} />
-        <Route path="/users" element={<Users />} />
+        <Route path="/contact" element={<Contact />} />
       </Routes>
     </>
   );
