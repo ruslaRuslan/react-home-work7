@@ -16,9 +16,10 @@ body{
 
 .homeAboutContact{
     display: flex;
-    justify-content: space-between;   
+    justify-content: space-around;   
 }
 
 .homeAboutContact *{
     text-decoration: none;
+    color: #000;
 }
