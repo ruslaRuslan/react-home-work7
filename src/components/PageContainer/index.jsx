@@ -3,8 +3,8 @@ import Header from "../Header";
 const PageContainer = ({ children }) => {
   return (
     <>
-      <Header />
       <div>{children}</div>
+      <Header />
       <Footer />
     </>
   );

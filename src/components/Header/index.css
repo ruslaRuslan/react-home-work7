@@ -1,0 +1,11 @@
+.homeAboutContact{
+   display: flex;
+   justify-content: space-around;
+   border: 2px solid red;
+   padding: 1rem;
+}
+
+.homeAboutContact *{
+   text-decoration: none;
+   color: red;
+}
