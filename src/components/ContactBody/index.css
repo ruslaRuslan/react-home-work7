@@ -1,8 +1,18 @@
 .divInputs{
     display: flex;
     flex-direction: column;
+    justify-content: center;
     gap: 5px;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+
+    
 }
+.divInputs *{
+    border: 1px solid;
+}
+
+
 
 input{
     padding-bottom: 5px;
@@ -11,5 +21,11 @@ input{
 
 .inputMessage{
     padding-bottom: 350px;
-    width:500px ; 
+    width:500px; 
+}
+
+button{
+    width:200px;
+    height: 50px; 
+
 }
