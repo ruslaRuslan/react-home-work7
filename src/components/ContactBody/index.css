@@ -1,7 +1,9 @@
 .divInputs{
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     gap: 5px;
     margin-top: 3rem;
     margin-bottom: 3rem;
@@ -10,6 +12,7 @@
 }
 .divInputs *{
     border: 1px solid;
+
 }
 
 
@@ -27,5 +30,4 @@ input{
 button{
     width:200px;
     height: 50px; 
-
 }
