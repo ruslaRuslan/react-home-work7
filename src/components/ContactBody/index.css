@@ -3,4 +3,10 @@
     flex-direction: column;
     gap: 5px;
 }
+input{
+    padding-bottom: 5px;
+    width: 500px;
+}
 
+
+/* style={{paddingBottom: "5px", width: "500px"}}  */
