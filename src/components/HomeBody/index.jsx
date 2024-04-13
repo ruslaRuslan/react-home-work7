@@ -3,7 +3,7 @@ import photo from "./photo2024.jpg";
 
 const HomeBody = () => {
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: "flex", margin: "5rem 1rem" }}>
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quasi,
         aliquid? Voluptatum ullam iusto cupiditate qui labore. Impedit corporis

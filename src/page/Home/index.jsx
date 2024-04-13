@@ -1,12 +1,16 @@
-import Body from "../../components/Body";
+import Footer from "../../components/Footer";
+import HomeBody from "../../components/HomeBody";
 import PageContainer from "../../components/PageContainer";
 const Home = ({}) => {
   return (
     <>
-      <PageContainer>
+
         <div>Home</div>
-      </PageContainer>
-      <Body />
+      <PageContainer/>
+      <HomeBody />
+      <Footer />
+      
+
       
   
     </>

@@ -8,9 +8,8 @@ const PageContainer = ({ children }) => {
     <>
       <div>{children}</div>
       <Header />
-
       
-      <Footer />
+      {/* <Footer /> */}
     </>
   );
 };
