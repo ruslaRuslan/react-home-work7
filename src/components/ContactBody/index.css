@@ -5,13 +5,12 @@
     justify-content: center;
     align-items: center;
     gap: 5px;
-    margin-top: 3rem;
-    margin-bottom: 3rem;
+    margin: 3rem 0;
 
     
 }
 .divInputs *{
-    border: 1px solid;
+    border: 2px solid;
 
 }
 
